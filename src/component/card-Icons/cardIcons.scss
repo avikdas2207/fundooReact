@@ -1,0 +1,9 @@
+.cardIcons{
+    display: flex;
+    justify-content: space-evenly;
+    .MuiSvgIcon-root{
+        height: 20px;
+        width: 20px;
+        opacity: 0.71;
+    }
+}

@@ -1,0 +1,35 @@
+#appBar{
+    color:white;
+    .MuiPaper-root{
+        border: 0;
+    }
+    .MuiTypography-displayBlock{
+        font-size: 14px;
+    }
+    .MuiToolbar-root{
+        transition: none;
+    }
+    #searchInput{
+        outline: none;
+        background: #f1f3f4;
+        border: 0px;
+        width: 250px;
+    }
+    .searchBar{
+        background: #f1f3f4;
+        border: 1px solid transparent;
+        width: 500px;
+        margin-left: 50px;
+        height: 40px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    #searchIcon{
+        margin: 8px;
+    }
+    #navIcon{
+        display: flex;
+        width: 100px;
+        margin-left: 50px;
+    }
+}

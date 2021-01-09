@@ -1,0 +1,49 @@
+.colorContainer{
+    width: 150px;
+    .MuiMenuItem-root{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .colorPlate{
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    #white{
+        background-color: black;
+    }
+    #red{
+        background-color: red;
+    }
+    #orange{
+        background-color: orange;
+    }
+    #yellow{
+        background-color: yellow;
+    }
+    #green{
+        background-color: green;
+    }
+    #teal{
+        background-color: teal;
+    }
+    #blue{
+        background-color: blue;
+    }
+    #darkBlue{
+        background-color: darkblue;
+    }
+    #purple{
+        background-color: purple;
+    }
+    #pink{
+        background-color: pink;
+    }
+    #brown{
+        background-color: brown;
+    }
+    #grey{
+        background-color: grey;
+    }
+}

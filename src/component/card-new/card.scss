@@ -1,0 +1,73 @@
+#wholeCard{
+    box-shadow: 0 3px 5px rgba(0,0,0,0.20);
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+.firstCard{
+    width: 500px;
+}
+    .firstCard:hover{
+        background-color: white;
+    }
+    #fullTitle{
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+    .icons{
+        width: 150px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #title{
+        outline: none;
+        border: 0px;
+        height: 30px;
+    }
+    .iconArea{
+        display: flex;
+        justify-content:space-evenly;
+        flex-grow: 0.25;
+        padding: 8px;
+    }
+    .MuiPaper-root{
+        background-color: white;
+    }
+    #Description{
+        outline: none;
+        border: 0px;
+    }
+    #expandArea{
+        padding: 10px;
+    }
+    #expandPart{
+        display: flex;
+        width: 500px;
+    }
+    .MuiButtonBase-root{
+        background-color: white;
+        box-shadow: none;
+        
+    }
+    .Mui-expanded:hover{
+        background-color: white;
+    }
+    #lastPart{
+        display: flex;
+        justify-content: space-evenly;
+        opacity: 0.71;
+    }
+    #closeButton{
+        font-weight: 500;
+        font-size: .875rem;
+    }
+    #btnIcons{
+        width: 350px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

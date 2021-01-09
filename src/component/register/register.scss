@@ -1,0 +1,122 @@
+.register-container{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    #wholeBox{
+        width: 650px;
+        display: flex;
+    }
+    .gridBox{
+        width: 400px;
+        outline: 0px;
+        justify-content: center;
+        padding: 30px;
+        border: none; 
+    }
+    #createFundoo{
+        font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 1.3333;
+        text-align: left;
+        margin: 10px 0 10px 0;
+    }
+    #continue{
+        font-family: roboto,'Noto Sans Myanmar UI',arial,sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: left;
+        margin: 10px 0 10px 0;
+    }
+    .logo{
+        text-align: left;
+    }
+    .user{
+        width: 500px;
+    }
+    form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 35px;
+    }
+    .fname, .lname {
+        
+        width: 170px;
+    }
+    .paswd, .cnfpswd {
+        
+        width: 170px;
+    }
+    #button{
+        background-color: #1a73e8;
+        color: whitesmoke;
+        text-transform: none;
+        font-family: "Google Sans",Roboto,Arial,sans-serif;
+    }
+    .endPart{
+        display: flex;
+        justify-content: space-between;
+        width: 350px;
+        margin: 25px 0 0 0;
+    }
+    #create{
+        color: #1a73e8;
+        font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .googleImage{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #gImage{
+        height: 200px;
+        width: 200px;
+    }
+    #oneAcc{
+        font-family: roboto,'Noto Sans Myanmar UI',arial,sans-serif;
+        font-weight: 300px;
+    }
+    
+}
+@media only screen and (max-width: 600px){
+    .register-container , #wholeBox{
+        display: flex;
+        justify-content: flex-end;
+        height: auto;
+        width: 100%;
+        border: 0;
+        width: 300px;
+        box-shadow: none;
+    }
+    img{
+        display: none;
+    }
+    #oneAcc{
+        display: none;
+    }
+    .endPart{
+        width: 2000px;
+    }
+    .googleImage{
+        width: 0px;
+    }
+    .gridBox{
+        box-shadow: none;
+        border: none;
+    }
+    form {
+        width: 150px;
+    }
+    #createFundoo{
+        width: 200px;
+    }
+    #button{
+        margin: 0 auto;
+    }
+
+}

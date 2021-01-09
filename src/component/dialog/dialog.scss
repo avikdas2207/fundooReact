@@ -1,0 +1,20 @@
+#dialogContainer{
+.title , .desc{
+        outline: none;
+        border: 5px;
+        height: 30px;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .MuiDialogActions-root{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .cardIcons{
+        width: 250px;
+    }
+}
